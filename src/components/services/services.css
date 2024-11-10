@@ -160,17 +160,21 @@
   }
   
   /*For smaller devices*/
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 500px) {
    
-    .services__container{
-        grid-template-columns: max-content;
+    .services__container {
+        grid-template-columns: 1fr; /* Single column layout */
+        row-gap: 1.5rem; /* Add space between stacked items */
     }
 
-    .services__content{
-        padding-right: 6rem;
+    .services__content {
+        padding: 3rem 1.5rem; /* Adjust padding to fit smaller screens */
     }
+    
 
   }
   
   
+  
+
   

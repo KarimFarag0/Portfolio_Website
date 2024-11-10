@@ -121,5 +121,16 @@
   @media screen and (max-width: 350px) {
     .qualification__data{
         gap: 0.5rem;
+        
     }
+
   }
+
+
+/* For small screens (phones), make the text smaller */
+@media screen and (max-width: 576px) {
+    .qualification__button {
+        font-size: 14px; /* Adjust to your desired smaller font size */
+    }
+}
+  
