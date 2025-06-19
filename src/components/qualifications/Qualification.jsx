@@ -75,6 +75,26 @@ const Qualification = () => {
                 
               </div>
 
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Concordia University</h3>
+                  <span 
+                  className="qualification__subtitle">University</span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt">
+                      2025
+                    </i>
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+                <div></div>
+
+              </div>
+
 
 
 
@@ -117,6 +137,46 @@ const Qualification = () => {
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt">
                       2024 - Present
+                    </i>
+                  </div>
+                </div>
+
+                
+              </div>
+
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Developer</h3>
+                  <span 
+                  className="qualification__subtitle">ImmigrationDoor</span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt">
+                      2025
+                    </i>
+                  </div>
+                </div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+              </div>
+
+              <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">Web Developer</h3>
+                  <span 
+                  className="qualification__subtitle">Pointe-Claire Village Association</span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt">
+                      2025
                     </i>
                   </div>
                 </div>

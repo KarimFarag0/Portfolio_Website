@@ -17,7 +17,7 @@ const About = () => {
                     <Info/>
                 
                     <p className="about__description">A motivated
-                         and detail-oriented Computer Science student
+                         and detail-oriented Computer Science graduate
                         with strong foundational knowledge in Java, 
                         JavaScript, HTML,and CSS.
                     </p>
