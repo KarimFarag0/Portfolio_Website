@@ -1,10 +1,8 @@
 import Work1 from "../../assets/work1.jpeg";
 import Work3 from "../../assets/Work3.png";
 import Work4 from "../../assets/Work4.png";
-import Work5 from "../../assets/work5.jpeg"
-import Work6 from "../../assets/Work6.png"
-import Work7 from "../../assets/Work7.png"
-import Work8 from "../../assets/Work8.png"
+import Work6 from "../../assets/Work6.png";
+import Work8 from "../../assets/Work8.png";
 
 export const projectsData = [
     {
