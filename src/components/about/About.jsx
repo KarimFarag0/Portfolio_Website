@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/about.JPG";
-import CV from "../../assets/Comp-Sci_CV.pdf";
+import AboutImg from "../../assets/Image_me.jpeg";
+import CV from "../../assets/Resume_2026.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -16,13 +16,13 @@ const About = () => {
                 <div className="about__data">
                     <Info/>
                 
-                    <p className="about__description">A motivated
-                         and detail-oriented Computer Science graduate
-                        with strong foundational knowledge in Java, 
-                        JavaScript, HTML,and CSS.
-                    </p>
+                    <p className="about__description">I'm a web developer based in Pointe-Claire, Montreal. 
+                      I build modern, responsive websites and web applications for local businesses 
+                      and organizations. From design to deployment, I handle the full process — 
+                      so you get a site that looks great, loads fast, and gets you found on Google.
+                  </p>
 
-                    <a download="" href={CV} className="button button--flex">Download CV
+                  <a download="" href={CV} className="button button--flex">Download Resume
                     <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

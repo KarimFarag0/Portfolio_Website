@@ -8,13 +8,22 @@
 
 .work__item{
     cursor: pointer;
-    color: var(--title-color);
+    color: var(--text-color);
     padding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+.work__item:hover{
+    color: var(--accent-color);
+}
+
+.active-work{
+    color: var(--accent-color);
+    background-color: hsla(160, 70%, 50%, 0.1);
+}
 
 .work__container{
     grid-template-columns: repeat(2,max-content);
@@ -24,14 +33,20 @@
 
 .work__card{
     background-color: var(--container-color);
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid var(--card-border);
     padding: 1.25rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.work__card:hover{
+    border-color: var(--accent-color);
+    transform: translateY(-5px);
 }
 
 .work__img{
     width: 295px;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     margin-bottom: var(--mb-1);
 }
 
@@ -39,10 +54,11 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+    color: var(--title-color);
 }
 
 .work__button{
-    color: var(--text-color);
+    color: var(--accent-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -59,55 +75,38 @@
 }
 
 /*============BREAKPOINT==========*/
-
-/*For larger devices*/
 @media screen and (max-width: 992px) {
-    
     .work__container{
         gap: 1.25rem;
     }
-
     .work__card{
         padding: 1rem;
     }
-
-
     .work__img{
         margin-bottom: 0.75rem;
     }
-   
     .work__title{
-        margin-bottom : 0.25rem;
+        margin-bottom: 0.25rem;
     }
-  }
-  
-  
-  /*For medium devices*/
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     .work__container{
         grid-template-columns: max-content;
     }
-  }
-  
-  @media screen and (max-width: 576px){
+}
+
+@media screen and (max-width: 576px){
     .work__container{
         grid-template-columns: 1fr;
     }
-
     .work__img{
         width: 100%;
     }
-  }
-  
-  /*For smaller devices*/
-  @media screen and (max-width: 350px) {
-    
-   .work__item{
-    font-size: var(--small-font-size);
-   }
+}
 
-   
-  }
-  
-  
-  
+@media screen and (max-width: 350px) {
+    .work__item{
+        font-size: var(--small-font-size);
+    }
+}
