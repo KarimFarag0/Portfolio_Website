@@ -1,8 +1,6 @@
-import Work1 from "../../assets/work1.jpeg";
 import Work3 from "../../assets/Work3.png";
 import Work4 from "../../assets/Work4.png";
 import Work6 from "../../assets/Work6.png";
-import Work8 from "../../assets/Work8.png";
 
 export const projectsData = [
     {
@@ -11,6 +9,8 @@ export const projectsData = [
         title: 'Village Association Website',
         subtitle: 'React, Tailwind CSS, Vercel',
         category: 'web',
+        liveUrl: null,
+        githubUrl: null,
     },
     {
         id: 2,
@@ -18,38 +18,31 @@ export const projectsData = [
         title: 'Immigration Door Platform',
         subtitle: 'React, Node.js, Full-Stack',
         category: 'web',
+        liveUrl: null,
+        githubUrl: null,
     },
     {
         id: 3,
         image: Work4,
-        title: 'FinFlow - Financial Tracker',
+        title: 'FinFlow — Financial Tracker',
         subtitle: 'React, AWS, PostgreSQL, JWT Auth',
         category: 'app',
+        liveUrl: null,
+        githubUrl: null,
     },
     {
         id: 4,
-        image: Work1,
-        title: 'Portfolio Website',
-        subtitle: 'React',
+        image: null,
+        title: 'Photographer Portfolio — Jared Reyes',
+        subtitle: 'Next.js, TypeScript, Tailwind CSS, Framer Motion',
         category: 'web',
-    },
-    {
-        id: 5,
-        image: Work8,
-        title: 'CatchTheDarkHorse Promo-Website',
-        subtitle: 'React',
-        category: 'web',
+        liveUrl: 'https://photographer-portfolio-coral-chi.vercel.app/',
+        githubUrl: 'https://github.com/KarimFarag0/photographer-portfolio',
     },
 ];
 
 export const projectsNav = [
-    {
-        name: 'all',
-    },
-    {
-        name: 'web',
-    },
-    {
-        name: 'app',
-    },
+    { name: 'all' },
+    { name: 'web' },
+    { name: 'app' },
 ];
